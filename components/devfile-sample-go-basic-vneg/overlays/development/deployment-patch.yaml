@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: devfile-sample-go-basic-vneg
+  namespace: svatares-tenant
+spec:
+  replicas: 1
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/redhat-appstudio/user-workload@sha256:d5975f60d745448f6044f7aa49a628e46b63d40cb11dd4f7c5c5e5e186ea2bd8
+        name: my-go
+        resources: {}
+status: {}
