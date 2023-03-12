@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: devfile-sample-go-basic-vneg
     spec:
       containers:
-      - image: quay.io/redhat-appstudio/user-workload@sha256:845d7135862be130f1e809f9f158a235928801271caba735eec490dadea53e99
+      - image: quay.io/redhat-appstudio/user-workload@sha256:62123a4d2cf884719bb6bf2a7604cf5fec3473e93751f6dd8254050350664f39
         name: my-go
         ports:
         - containerPort: 8081
