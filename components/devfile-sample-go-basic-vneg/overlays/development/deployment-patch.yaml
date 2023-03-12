@@ -13,7 +13,7 @@ spec:
       creationTimestamp: null
     spec:
       containers:
-      - image: quay.io/redhat-appstudio/user-workload@sha256:d5975f60d745448f6044f7aa49a628e46b63d40cb11dd4f7c5c5e5e186ea2bd8
+      - image: quay.io/redhat-appstudio/user-workload@sha256:845d7135862be130f1e809f9f158a235928801271caba735eec490dadea53e99
         name: my-go
         resources: {}
 status: {}
